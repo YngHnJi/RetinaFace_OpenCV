@@ -1,4 +1,4 @@
-# retinaface_opencv
+# Run RetinaFace on OpenCV
 
 ## Summary
 - Run RetinaFace opencv c++ api with onnx model
