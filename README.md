@@ -1,14 +1,32 @@
-# Run RetinaFace on OpenCV
+## Introduction
 
-## Summary
-- Run RetinaFace opencv c++ api with onnx model
-- This code developed based on VisualStudio 2019 with OpenCV 4.5.1 version
-- Author: Young-hoon Ji (younghoon_ji@kookmin.ac.kr)
+This is a repository to run Retinaface model with OpenCV library in C++
+
+A lots of code lines come from the link [here](https://github.com/linghu8812/tensorrt_inference/tree/master/RetinaFace) for onnx model converting and Retinaface model inference.
+
+## Environments
+
+- This code developed in VisualStudio 2019 with OpenCV(ver 4.5.1)
+- only CPU inference supported, GPU acceleration not supported.
+- Due to the property of ONNX format, fixed size input required in order to run model and
+
+## Overall Pipeline
+
+![pipeline.png](attachment/pipeline.png)
+
+## Results
+
+![widerface_0.jpg](attachment/widerface_0.jpg)
+
+![widerface_1.jpg](attachment/widerface_1.jpg)
 
 ## Reference
-- Base Model taken from https://github.com/deepinsight/insightface/tree/master/detection/RetinaFace
-- Converting model to onnx and OpenCV code referenced on this repository https://github.com/linghu8812/tensorrt_inference/tree/master/RetinaFace
 
-## Model
-Onnx Model(RetinaFace) download link
-https://drive.google.com/file/d/1kN8i38ZF19SyOw6fL0W9ZT04D0imjylJ/view?usp=sharing
+Deng, Jiankang, et al. "Retinaface: Single-shot multi-level face localisation in the wild." *Proceedings of the IEEE/CVF conference on computer vision and pattern recognition*
+. 2020. ([paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Deng_RetinaFace_Single-Shot_Multi-Level_Face_Localisation_in_the_Wild_CVPR_2020_paper.pdf), [code](https://github.com/deepinsight/insightface/tree/master/detection/retinaface))
+
+[https://github.com/linghu8812/tensorrt_inference/tree/master/RetinaFace](https://github.com/linghu8812/tensorrt_inference/tree/master/RetinaFace)
+
+## Download ONNX model
+
+Pretrained RetinaFace onnx model can be downloaded from the google drive link [here](https://drive.google.com/file/d/1YnM0TlJhuNO5_sS00g1W5ORxlLL227x5/view?usp=sharing)
