@@ -16,9 +16,7 @@ A lots of code lines come from the link [here](https://github.com/linghu8812/ten
 
 ## Results
 
-![widerface_0.jpg](attachment/widerface_0.jpg)
-
-![widerface_1.jpg](attachment/widerface_1.jpg)
+![widerface_2.jpg](attachment/widerface_2.jpg)
 
 ## Reference
 
