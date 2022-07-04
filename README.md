@@ -8,7 +8,7 @@ A lots of code lines come from the link [here](https://github.com/linghu8812/ten
 
 - This code developed in VisualStudio 2019 with OpenCV(ver 4.5.1)
 - only CPU inference supported, GPU acceleration not supported.
-- Due to the property of ONNX format, fixed size input required in order to run model and
+- Due to the property of ONNX format, fixed size input required in order to run model
 
 ## Overall Pipeline
 
