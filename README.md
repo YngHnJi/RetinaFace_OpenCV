@@ -27,4 +27,4 @@ Deng, Jiankang, et al. "Retinaface: Single-shot multi-level face localisation in
 
 ## Download ONNX model
 
-Pretrained RetinaFace onnx model can be downloaded from the google drive link [here]([https://drive.google.com/file/d/1YnM0TlJhuNO5_sS00g1W5ORxlLL227x5/view?usp=sharing](https://drive.google.com/drive/folders/1gcY5j8CQafLCcTdyRZFrIYNjd2pQgSDX))
+Pretrained RetinaFace onnx model can be downloaded from the google drive link [here](https://drive.google.com/drive/folders/1gcY5j8CQafLCcTdyRZFrIYNjd2pQgSDX)
